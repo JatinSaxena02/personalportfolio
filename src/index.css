@@ -1,0 +1,16 @@
+@import "tailwindcss";
+html {
+  scroll-padding-top: 3rem;
+  scroll-behavior: smooth; /* match navbar height */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body {
+  margin: 0;
+  padding-top: 0;
+}
